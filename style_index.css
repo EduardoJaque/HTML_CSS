@@ -1,0 +1,79 @@
+
+body {
+    background: url('lovepik-technological-background-image_401943506.jpg') no-repeat center center fixed, rgba(255, 255, 255, 0.05);
+    background-blend-mode: lighten;
+    background-size: cover;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(27, 27, 27, 0.8); /* Negro con 80% de opacidad */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #00ff00;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ff00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url('hacker-background.jpg') no-repeat center center/cover;
+    color: #00ff00;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(27, 27, 27, 0.8); /* Negro con 80% de opacidad */
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #00ff00;
+}

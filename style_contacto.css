@@ -1,0 +1,44 @@
+body {
+    background: url('lovepik-technological-background-image_401943506.jpg') no-repeat center center fixed, rgba(255, 255, 255, 0.05);
+    background-blend-mode: lighten;
+    background-size: cover;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(27, 27, 27, 0.8); /* Negro con 80% de opacidad */
+    color: #00ff00;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-container h2 {
+    text-align: center;
+    color: #00ff00;
+}
+
+.contact-info {
+    margin: 20px 0;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: rgba(27, 27, 27, 0.8); /* Negro con 80% de opacidad */
+    color: #00ff00;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

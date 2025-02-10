@@ -1,0 +1,43 @@
+body {
+    background: url('lovepik-technological-background-image_401943506.jpg') no-repeat center center fixed, rgba(255, 255, 255, 0.05);
+    background-blend-mode: lighten;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0d0d0d;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+.login-container {
+    background-color: rgba(27, 27, 27, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff00;
+    border: none;
+    border-radius: 4px;
+    color: #0d0d0d;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login-container button:hover {
+    background-color: #00cc00;
+}
